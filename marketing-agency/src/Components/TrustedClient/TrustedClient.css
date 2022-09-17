@@ -1,0 +1,37 @@
+.trusted-client {
+  padding: 5rem 0 6rem;
+}
+
+.trusted-client h5 {
+  font-size: 1rem;
+  font-family: var(--ff-tertiary-text);
+  text-align: center;
+  text-transform: uppercase;
+  color: #b2b7be;
+}
+
+.companies-list {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies-list img {
+  max-width: 15rem;
+}
+
+.companies-list img:not(:last-child) {
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 62em) {
+  .companies-list {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .companies-list img:not(:last-child) {
+    margin-right: 0;
+  }
+}

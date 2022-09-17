@@ -1,0 +1,140 @@
+.testimonials {
+  position: relative;
+  padding: 5rem 0 10rem;
+}
+
+.testimonials .container {
+  position: relative;
+}
+
+.deco-quotes {
+  position: absolute;
+  left: 10rem;
+  z-index: -10;
+}
+
+.testimonials-carousel {
+  margin-top: 6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-wrapper {
+  display: flex;
+  width: calc(var(--length) * 100%);
+  transition: transform 1s;
+}
+
+.carousel-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ci-left {
+  margin-right: 5rem;
+}
+
+.ci-left .ci-left-logo {
+  width: 4rem;
+  margin-bottom: 3rem;
+}
+
+.carousel-item .ci-message {
+  font-size: 1.375rem;
+  font-family: var(--ff-body-text);
+  color: #6d6d6d;
+  font-weight: 500;
+  font-style: italic;
+  max-width: 35ch;
+}
+
+.customer-details {
+  margin-top: 3rem;
+}
+
+.customer-details span {
+  display: block;
+}
+
+.customer-details .ci-name {
+  font-family: var(--ff-tertiary-text);
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: #1c1c1d;
+  font-weight: 700;
+}
+
+.customer-details .ci-position {
+  font-family: var(--ff-body-text);
+  font-weight: 500;
+  color: #9c988f;
+}
+
+.ci-right {
+  position: relative;
+}
+
+.ci-right .ci-right-deco {
+  position: absolute;
+  z-index: -10;
+}
+
+.carousel-navigation-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-navigation-btn button {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border: 1px solid #e8e4dc;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 14px 30px -4px rgba(206, 206, 206, 0.5);
+}
+
+.carousel-navigation-btn .prev-btn {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 36em) {
+  .carousel-item .ci-message {
+    font-size: 1rem;
+    max-width: 35ch;
+  }
+
+  .carousel-item {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .ci-left {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .ci-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ci-left,
+  .ci-right {
+    width: 100%;
+  }
+}

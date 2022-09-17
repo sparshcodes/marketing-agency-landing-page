@@ -1,0 +1,144 @@
+.header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header .logo {
+  max-width: 100px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header .btn {
+  text-align: center;
+}
+
+.header .mobile-btn {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+  transition: all 0.5s;
+}
+
+.hamburger .line {
+  position: absolute;
+  width: 3rem;
+  height: 5px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+.hamburger .line1 {
+  transform: translateY(1rem);
+}
+
+.hamburger .line3 {
+  transform: translateY(-1rem);
+}
+
+@media screen and (max-width: 48em) {
+  .header .desktop-btn {
+    display: none;
+  }
+
+  .header .mobile-btn {
+    display: block;
+    margin-top: 1.5rem;
+  }
+
+  .header-nav {
+    position: absolute;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header-nav .navigation-wrapper {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #000;
+    transform: translateY(0);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+  }
+
+  .hamburger.show ~ .navigation-wrapper {
+    opacity: 1;
+  }
+
+  .header .navbar .nav-item:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  .header .navbar {
+    flex-direction: column;
+  }
+
+  .hamburger.show .navigation-wrapper {
+    opacity: 1;
+  }
+
+  .hamburger.show {
+    transform: rotate(180deg);
+  }
+
+  .hamburger.show .line1 {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  .hamburger.show .line2 {
+    opacity: 0;
+  }
+
+  .hamburger.show .line3 {
+    transform: translateY(0) rotate(-45deg);
+  }
+
+  .header .navbar .nav-item:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 36em) {
+  .hamburger .line {
+    width: 2.5rem;
+    height: 4px;
+  }
+
+  .hamburger .line1 {
+    transform: translateY(0.8rem);
+  }
+
+  .hamburger .line3 {
+    transform: translateY(-0.8rem);
+  }
+}

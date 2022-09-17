@@ -1,0 +1,43 @@
+.newsletter {
+  padding: 4rem 0;
+  border-radius: 1.5rem;
+  background-color: #dd2679;
+  background-image: url("./src/assets/hdr_ig_mrkt_bg.svg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: #fff;
+}
+
+.newsletter p {
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.newsletter .btn {
+  padding: 16px 48px;
+  margin: 2rem auto;
+}
+
+.newsletter .btn img {
+  margin-left: 2em;
+}
+
+@media screen and (max-width: 48em) {
+  .newsletter {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .newsletter .btn {
+    padding: 15px 30px;
+    margin: 2rem auto;
+  }
+
+  .newsletter .btn img {
+    margin-left: 1em;
+  }
+}
