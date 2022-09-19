@@ -2,7 +2,7 @@
   padding: 4rem 0;
   border-radius: 1.5rem;
   background-color: #dd2679;
-  background-image: url("./src/assets/hdr_ig_mrkt_bg.svg");
+  background-image: url("./public/assets/hdr_ig_mrkt_bg.svg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .newsletter .btn {
-  padding: 16px 48px;
+  padding: 1em 3em;
   margin: 2rem auto;
 }
 
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 20em) {
   .newsletter .btn {
-    padding: 15px 30px;
+    padding: 0.8em 1.8em;
     margin: 2rem auto;
   }
 

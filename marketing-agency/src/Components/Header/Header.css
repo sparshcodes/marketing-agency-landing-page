@@ -7,21 +7,7 @@
 }
 
 .header .logo {
-  max-width: 100px;
-}
-
-.header-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.navigation-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.header .btn {
-  text-align: center;
+  max-width: 8rem;
 }
 
 .header .mobile-btn {
@@ -48,11 +34,11 @@
 }
 
 .hamburger .line1 {
-  transform: translateY(1rem);
+  transform: translateY(-1rem);
 }
 
 .hamburger .line3 {
-  transform: translateY(-1rem);
+  transform: translateY(1rem);
 }
 
 @media screen and (max-width: 48em) {

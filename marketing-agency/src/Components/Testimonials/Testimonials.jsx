@@ -25,7 +25,7 @@ const Testimonials = () => {
       <div className="container">
         <img
           className="deco-quotes"
-          src="./src/assets/double-quotes.svg"
+          src="./assets/double-quotes.svg"
           alt=""
         />
         <h2 className="section-heading">happy clients</h2>
@@ -47,7 +47,7 @@ const Testimonials = () => {
                   <div className="ci-left">
                     <img
                       className="ci-left-logo"
-                      src="./src/assets/client-profile.svg"
+                      src="./assets/client-profile.svg"
                       alt=""
                     />
                     <p className="ci-message">{carouselItem.message}</p>
@@ -61,7 +61,7 @@ const Testimonials = () => {
                   <div className="ci-right">
                     <img
                       class="ci-right-deco"
-                      src="./src/assets/shapes.svg"
+                      src="./assets/shapes.svg"
                       alt=""
                     />
                     <img src={carouselItem.img} alt="" />
@@ -72,10 +72,10 @@ const Testimonials = () => {
           </div>
           <div className="carousel-navigation-btn">
             <button className="prev-btn" onClick={handlePrev}>
-              <img src="./src/assets/carousel-left-arrow.svg" alt="" />
+              <img src="./assets/carousel-left-arrow.svg" alt="" />
             </button>
             <button className="next-btn" onClick={handleNext}>
-              <img src="./src/assets/carousel-right-arrow.svg" alt="" />
+              <img src="./assets/carousel-right-arrow.svg" alt="" />
             </button>
           </div>
         </div>

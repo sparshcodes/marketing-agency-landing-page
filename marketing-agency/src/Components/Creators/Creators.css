@@ -88,17 +88,13 @@
 }
 
 @media screen and (max-width: 36em) {
-  .creators-list { 
+  .creators-list {
     flex-direction: column;
   }
 
   .creator-item:not(:last-child) {
     margin-right: 0;
-    margin-bottom:10rem
-  }
-
-  .creator-details span {
-    /* font-size:1.2rem; */
+    margin-bottom: 10rem;
   }
 
   .reach-item span:first-child {

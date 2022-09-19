@@ -15,11 +15,11 @@ const CTA = () => {
             to find results 100x faster.
           </p>
           <a className="btn btn-primary">
-            request demon <img src="./src/assets/arrow-right.svg" alt="" />
+            request demon <img src="./assets/arrow-right.svg" alt="" />
           </a>
         </div>
         <div className="cta-right">
-          <img src="../src/assets/hdr_ig_mrktng_img1.svg" alt="" />
+          <img src="./assets/hdr_ig_mrktng_img1.svg" alt="" />
         </div>
       </div>
     </div>

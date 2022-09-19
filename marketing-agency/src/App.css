@@ -86,14 +86,14 @@ ul {
 
 .btn {
   padding: 0.8em 1.4em;
-  border-radius: 100px;
+  border-radius: 10rem;
   text-transform: capitalize;
   text-decoration: none;
   color: #fff;
   font-family: var(--ff-body-text);
   font-size: 1rem;
   cursor: pointer;
-  white-space: nowrap; /*delete it later*/
+  white-space: nowrap;
 }
 
 .btn.btn-primary {

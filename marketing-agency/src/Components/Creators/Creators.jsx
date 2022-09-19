@@ -12,7 +12,7 @@ const Creators = () => {
         </p>
         <div className="creators-list">
           <div className="creator-item">
-            <img src="./src/assets/creator-image1.png" alt="" />
+            <img src="./assets/creator-image1.png" alt="" />
             <div className="creator-details">
               <span>rebel clothing</span>
               <div className="reach-container">
@@ -27,12 +27,12 @@ const Creators = () => {
               </div>
               <a className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-pink.svg" alt="" />
+                <img src="./assets/arrow-right-pink.svg" alt="" />
               </a>
             </div>
           </div>
           <div className="creator-item">
-            <img src="./src/assets/creator-image2.png" alt="" />
+            <img src="./assets/creator-image2.png" alt="" />
             <div className="creator-details">
               <span>rebel clothing</span>
               <div className="reach-container">
@@ -47,12 +47,12 @@ const Creators = () => {
               </div>
               <a className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-pink.svg" alt="" />
+                <img src="./assets/arrow-right-pink.svg" alt="" />
               </a>
             </div>
           </div>
           <div className="creator-item">
-            <img src="./src/assets/creator-image3.png" alt="" />
+            <img src="./assets/creator-image3.png" alt="" />
             <div className="creator-details">
               <span>rebel clothing</span>
               <div className="reach-container">
@@ -67,7 +67,7 @@ const Creators = () => {
               </div>
               <a className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-pink.svg" alt="" />
+                <img src="./assets/arrow-right-pink.svg" alt="" />
               </a>
             </div>
           </div>

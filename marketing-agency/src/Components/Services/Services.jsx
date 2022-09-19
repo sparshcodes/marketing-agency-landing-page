@@ -17,23 +17,22 @@ const Services = () => {
               <div className="service-name">Influencer marketing</div>
               <div className="service-details">
                 <p>
-                  create infinite pieces of content with our influencer
-                  product. Build,streamline,manage large-scale influencer
-                  programs
+                  create infinite pieces of content with our influencer product.
+                  Build,streamline,manage large-scale influencer programs
                 </p>
               </div>
               <div className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-black.svg" alt="" />
+                <img src="./assets/arrow-right-black.svg" alt="" />
               </div>
             </div>
             <div className="si-img">
-              <img src="./src/assets/card-without-shadow.svg" alt="" />
+              <img src="./assets/card-without-shadow.svg" alt="" />
             </div>
           </div>
           <div className="service-item">
             <div className="si-img">
-              <img src="./src/assets/profile-without-shadow.svg" alt="" />
+              <img src="./assets/profile-without-shadow.svg" alt="" />
             </div>
             <div className="si-details">
               <span>community</span>
@@ -46,7 +45,7 @@ const Services = () => {
               </div>
               <div className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-black.svg" alt="" />
+                <img src="./assets/arrow-right-black.svg" alt="" />
               </div>
             </div>
           </div>
@@ -63,11 +62,11 @@ const Services = () => {
               </div>
               <a className="lm-btn">
                 learn more
-                <img src="./src/assets/arrow-right-black.svg" alt="" />
+                <img src="./assets/arrow-right-black.svg" alt="" />
               </a>
             </div>
             <div className="si-img">
-              <img src="./src/assets/platform-without-shadow.svg" alt="" />
+              <img src="./assets/platform-without-shadow.svg" alt="" />
             </div>
           </div>
         </div>

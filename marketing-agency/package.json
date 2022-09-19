@@ -1,16 +1,12 @@
 {
-  // homepage will be the url where your website will get open 
-  "homepage":"http://sparshcodes.github.io/marketing-agency-landing-page",
   "name": "marketing-agency",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 8000"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -11,7 +11,7 @@ const NewsLetter = () => {
           forefront of social commerce
         </p>
         <a className="btn btn-primary">
-          subscribe <img src="./src/assets/arrow-right.svg" alt="" />
+          subscribe <img src="./assets/arrow-right.svg" alt="" />
         </a>
       </div>
     </div>

@@ -6,10 +6,10 @@
   position: absolute;
   width: 100%;
   height: 47%;
-  background-image: url("./src/assets/hdr_ig_mrkt_bg.svg");
+  background-image: url("./public/assets/hdr_ig_mrkt_bg.svg");
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  z-index: -10;
 }
 
 @media screen and (max-width: 48em) {

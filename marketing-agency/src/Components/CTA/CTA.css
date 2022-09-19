@@ -22,7 +22,6 @@
 
 .cta-left p {
   margin: 1em 0 2em;
-  /* max-width: 50ch; */
 }
 
 .cta-right {
@@ -35,12 +34,6 @@
   margin-right: -12rem;
 }
 
-/* // <576px
-// ≥576px
-// ≥768px
-// ≥992px
-// ≥1200px
-// ≥1400px */
 
 @media screen and (max-width: 75em) {
   .cta-left h1 {
